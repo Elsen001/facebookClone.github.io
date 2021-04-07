@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="clas">
+        <!-- left -->
+        <div id="left">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+
+        <!-- right -->
+        <div id="right">
+            <form action="">
+                <input type="text" placeholder="Email or Phone Number"><br>
+                <input type="password" placeholder="Password"><br>
+                <button  id="log">Log In</button><br>
+                <a href="">Forgot Password?</a><br>
+                <hr>
+                <button type="button" data-toggle="modal" data-target="#myModal" id="create">Create New Account</button>
+            </form>
+          <p id="parag"><a href="">Create a Page</a> for a celebrity, band or business.</p>
+        </div>
+    </div>
+
+    <!-- modal create -->
+
+    <button type="button" class="btn btn-primary" >
+        Open modal
+      </button>
+      
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Sign Up 
+                  <p>It’s quick and easy.</p>
+                </h4>
+              
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="row">
+                  <div>
+                       <input type="text" placeholder="First name">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Last name">                      
+                </div>
+              </div>
+              <div class="col-md-12">
+                  <input type="text" placeholder="Mobile number or email">
+              </div>
+              <div class="col-md-12">
+                  <input type="text" placeholder="New password">
+            </div>
+
+            <div class="birthday">Birthday<i class="fas fa-question-circle"></i></div> 
+           <div id="row" class="row">
+               <div>
+                <select name="" id="">
+                    <option value="">Month</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Aug</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+               </div>
+               <div>
+                   <select name="" id="day">
+
+                   </select>
+               </div>
+               <div>
+                   <select name="" id="year">
+
+                   </select>
+               </div>
+           </div>
+
+
+           
+
+
+           <div class="birthday">Gender<i class="fas fa-question-circle"></i></div> 
+           <div id="gend">
+
+            <div>
+                <label for="Famale">Female</label>
+                <input type="radio" name="gender" id="Famale">
+            </div>
+            <div id="side">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+            </div>
+            <div>
+                <label for="custom">Custom</label>
+                <input type="radio" name="gender" id="custom">
+            </div>
+
+           </div>
+         
+
+
+
+            </div>
+
+            <p id="desc">By clicking Sign Up, you agree to our <a href="">Terms,</a> <a href="">Data Policy</a>  and <a href="">Cookies Policy.</a>  You may receive SMS Notifications from us and can opt out any time.</p>
+      
+            <!-- Modal footer -->
+            <div class="modal-footerr">
+              <button type="button" class="btn btn-success">Sign Up</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+</body>
+
+</html>
